@@ -1,0 +1,67 @@
+.bg-image {
+    background-image: url('https://i.ibb.co/vXqDmnh/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.shade {
+    background-color: rgba(179, 168, 168, 0.801);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom_container {
+    width: 100%;
+    display: flex;
+}
+
+.custom_container .left {
+    margin-top: 50px;
+    width: 50%;
+    margin-left: 50px;
+}
+
+.custom_container .left img {
+    width: 500px;
+    height: 700px;
+}
+
+.custom_container .right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.custom_container .right input {
+    width: max-content;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid black;
+    outline: none;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.custom_container .right button {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.checkbox {
+    width: 20px !important;
+    height: 20px !important;
+}
